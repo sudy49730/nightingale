@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 7rem;
+}
+h3 {
+  font-size: 6rem;
+}
+h4 {
+  font-size: 5rem;
+}
+h5 {
+  font-size: 4rem;
+}
+h6 {
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+  color: #777;
+}
+hr {
+  margin: 0;
+}
+
+.navbar-default {
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255, 255, 255, 0.72);
+}
+
+.parent-container {
+  margin-top: 5%;
+}
+
+.row {
+  height: 55rem;
+}
+.centralize-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+}
+.github-btn {
+  margin-top: -10%;
+}
+.authors-section {
+  text-align: center;
+}
+.author-tile {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.author-tile > img {
+  width: 25%;
+  margin-bottom: 5%;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .parent-container {
+    margin-top: 8rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+    color: #777;
+  }
+  .row {
+    height: 25rem;
+  }
+}
